@@ -37,3 +37,9 @@ Significant performance degradation observed under domain shift, highlighting li
 
 Emmanuel Benson
 Edinburgh Napier University
+
+
+## Reproducibility
+
+Due to size constraints, datasets and trained model files are not included in this repository.  
+All experiments can be reproduced by running the provided notebooks.
