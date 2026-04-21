@@ -1,0 +1,45 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# IDE
+# ========================
+.idea/
+
+# ========================
+# Large project files
+# ========================
+notebooks/results/models/
+notebooks/results/features/
+
+# (optional: ignore all results if still large)
+# notebooks/results/
+
+# ========================
+# Data (if you have any)
+# ========================
+data/
+
+# ========================
+# Model files
+# ========================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.joblib
+*.pkl
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+Scenario,Family,Model,Accuracy,Precision,Recall,F1
+Train ISOT → Test ISOT (In-domain),Transformer,bert-base-uncased,1.0,1.0,1.0,1.0
+Train ISOT → Test LIAR (Cross-domain),ML,LR,0.3717442778216259,0.6666666666666666,0.0248138957816377,0.0478468899521531
+Train LIAR → Test ISOT (Cross-domain),Transformer,bert-base-uncased,0.5016666666666667,0.5008347245409015,1.0,0.6674082313681868
+Train LIAR → Test LIAR (In-domain),Transformer,roberta-base,0.6369376479873717,0.6368670886075949,0.9987593052109182,0.7777777777777777
